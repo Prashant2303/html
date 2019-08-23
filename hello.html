@@ -2,8 +2,54 @@
 <html>
 	<head>
 		<title>My Webpage</title>
+		<style>
+			h1
+			{
+				color:blue;
+				text-align:center;
+				font-family:Arial, sans-serif;
+				font-weight:bold;
+			}
+			table
+			{
+				border:2px solid black;
+				border-collapse: collapse;
+				width:50%;
+			}
+			th,td{
+				border:1px solid black;
+				padding:5px;
+				text-align:center;
+				}
+			th{
+				background-color:lightgrey;
+			}
+		</style>
 	</head>
 	<body>
 		Hello, World!
+		<img src ="kat.jpg" width = "50%">
+		<h1>Games</h1>
+		<table>
+			<tr>
+				<th>Game</th>
+				<th>Developer</th>
+				<th>Year</th>
+			</tr>
+			<tr>
+				<td>Titanfall 2</td>
+				<td>Respawn</td>
+				<td>2016</td>
+			</tr>
+			<tr>
+				<td>GTA 5</td>
+				<td>Rockstar</td>
+				<td>2013</td>
+			</tr>
+		</table>
+		<form>
+				<input type="text" placeholder="Full Name" name="name">
+				<button>Submit</button>
+		</form>
 	</body>
 </html>
